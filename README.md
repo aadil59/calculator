@@ -1,5 +1,5 @@
 # calculator
-Calculator web app](https://aadil59.guthub.io/calculator) is React application with supports only for addition operation currently, as it is under developement now.
+Calculator web app](https://aadil59.github.io/calculator/) is React application with supports only for addition operation currently, as it is under developement now.
 
 
 
