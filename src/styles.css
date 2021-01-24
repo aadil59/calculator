@@ -1,0 +1,84 @@
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    160deg,
+    rgba(2, 0, 36, 0.500437675070028) 0%,
+    rgba(148, 88, 221, 1) 35%,
+    rgba(254, 151, 104, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator {
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.outputConsole {
+  padding: 1rem;
+  background: #ffffff;
+  text-align: right;
+  min-height: 71px;
+}
+.outputConsole p {
+  margin: 0 0 0.5rem;
+  color: #777;
+}
+.outputConsole h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #444444;
+  font-weight: normal;
+}
+.keysWrapper {
+  display: flex;
+}
+.keysWrapper ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 75%;
+}
+.keysWrapper li {
+  cursor: pointer;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 18.67%;
+  padding: 1rem;
+  border-right: 0.5px solid #d2d2d2;
+  border-top: 0.5px solid #d2d2d2;
+  background: #f3edff;
+}
+.keysWrapper .zero {
+  flex: 1;
+  text-align: left;
+  padding-left: 2rem;
+}
+.keysWrapper ul.listGredient {
+  flex-basis: 25%;
+  background: rgb(246, 211, 97);
+  background: linear-gradient(
+    180deg,
+    rgba(246, 211, 97, 1) 35%,
+    rgba(255, 155, 102, 1) 100%
+  );
+}
+.keysWrapper ul.listGredient li {
+  flex: 1;
+  background: none;
+  color: #ffffff;
+  border-right: 0;
+}
